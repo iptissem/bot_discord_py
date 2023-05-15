@@ -328,5 +328,5 @@ async def speak_about(ctx, topic):
     await ctx.send(response)
 
 
-client.run("MTA5MTMzNDc0NzM1MzAwMjAzNQ.GZp4Ux.V3KfQvw4mlniAVk9SH6bSJ3sxZMjGTH8bAvHFM")
+client.run("TOKEN")
 
