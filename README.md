@@ -2,6 +2,16 @@
 
 ## Fonctionnalitées bot 
 
+### Commandes général
+- `!hello` : Le bot salut son interloctueur.
+- `!del` : supprime les 10 premières lignes de la discussion.
+
+### Historique de commande
+
+- `!full_history` : affiche les commandes sauvegardés.
+- `!last_command` : affiche la dernière commande écrite.
+- `!clear_command` : supprime l'historique des commandes.
+
 ### QUIZ 
 
 Ce quiz contient 6 questions, je l'ai créer à partir d'un dictionnaire, avec 3 clées distinctes : la question, les options et la bonne réponse.
@@ -30,14 +40,14 @@ Si la personne à plus de la moitié de bonnes réponses: elle gagne. Sinon c'es
 
 - !exit : le joueur à la possibilité de quiter le quiz à n'importe quel moment du jeu. après cela, un message s'affichera en indiquant son score de bonnes et de mauvaises réponses
 
-## CALCULETTE
+### CALCULETTE
 
 après !calcul : affichage d'un message de bienvenue.
 fonction check : on récupère dans un premier temps le message du l'utilisateur.
 		 utilisation de la méthode eval pour effectuer le calcul.
 	vérification : syntaxe, temps de réponse ( un délai de 30 secondes ).
 
-## USER INFO generateur 
+### USER INFO generateur 
 
 Commandes possibles :
 - `!info` : afficher message d'introduction 
@@ -46,3 +56,9 @@ Commandes possibles :
 	- si le tableau est vide, renvoie un message de fin.
 fonction **get_user_info** :
 pour chaque info de la liste info_user récupérer l'information souhaiter grâce à l'API de discord .
+
+### Arbre binaire | Discussion avec le bot
+- `!discussion` : commencer la discussion.
+- `!rep oui/non` : avancer dans la discussion.
+- `!reset` : reprendre de 0.
+- `!speak_about` : suivi d'un mot : demander si le bot parle d'un sujet.
