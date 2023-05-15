@@ -2,7 +2,7 @@
 
 ## Fonctionnalitées bot 
 
-### Mise en place d'un quiz 
+### QUIZ 
 
 Ce quiz contient 6 questions, je l'ai créer à partir d'un dictionnaire, avec 3 clées distinctes : la question, les options et la bonne réponse.
 
@@ -29,3 +29,20 @@ Affichage des résultats :
 Si la personne à plus de la moitié de bonnes réponses: elle gagne. Sinon c'est une défaite.
 
 - !exit : le joueur à la possibilité de quiter le quiz à n'importe quel moment du jeu. après cela, un message s'affichera en indiquant son score de bonnes et de mauvaises réponses
+
+## CALCULETTE
+
+après !calcul : affichage d'un message de bienvenue.
+fonction check : on récupère dans un premier temps le message du l'utilisateur.
+		 utilisation de la méthode eval pour effectuer le calcul.
+	vérification : syntaxe, temps de réponse ( un délai de 30 secondes ).
+
+## USER INFO generateur 
+
+Commandes possibles :
+- `!info` : afficher message d'introduction 
+- `!info plus` : ici l'argument plus va permettre de : 
+	- supprimer le premier élément de user_info pour pouvoir passer à l'info suivante.
+	- si le tableau est vide, renvoie un message de fin.
+fonction **get_user_info** :
+pour chaque info de la liste info_user récupérer l'information souhaiter grâce à l'API de discord .
